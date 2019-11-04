@@ -1,0 +1,65 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*:not(ion-icon){
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+ion-header{
+    background-image: linear-gradient(to right, #ff5588, #ff6666) !important;
+}
+
+.toolbar-background-md {
+    background-image: linear-gradient(to right, #ff5588, #ff6666) !important;
+}
+
+.toolbar-title-md {
+    color: #ffffff !important;
+}
+
+.bar-button-menutoggle-md ion-icon {
+    color: #ffffff !important;
+}
+
+.bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+#htop{
+    height: 200px !important;
+}
+
+.centerClass{
+    text-align: center;
+}
+
+#widthButton{
+    width: 80%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.shadow-inner {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+.itemBorderless { border-style: none }
